@@ -1,0 +1,442 @@
+@media (max-width: 1024px) {
+
+  /* HEADER */
+  .header {
+    padding: 20px 40px;
+  }
+
+  .logo {
+    margin: 0;
+    font-size: 32px;
+  }
+
+  .menu-list > li > a {
+    width: 140px;
+    font-size: 16px;
+  }
+
+  /* HERO */
+  .hero-logo img {
+    width: 420px;
+    height: auto;
+  }
+
+  .hero-center h1 {
+    font-size: 120px;
+    letter-spacing: 20px;
+  }
+
+  .hero-sub {
+    font-size: 18px;
+  }
+
+  .hero-sub .highlight {
+    font-size: 18px;
+  }
+
+  /* BLUE */
+  .blue-inner {
+    font-size: 34px;
+    letter-spacing: 8px;
+    margin: 0 60px;
+  }
+
+  /* TRUST */
+  .trust-1 img,
+  .trust-2 img {
+    height: 420px;
+  }
+
+  .content-wrapper {
+    right: 60px;
+  }
+
+  .main-title {
+    font-size: 48px;
+  }
+
+  .brand-text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  /* PROCESS */
+  .four-middle-logo img {
+    width: 420px;
+    height: auto;
+  }
+
+  .content-wrapper-process {
+    padding: 0 60px;
+  }
+
+  .left-section .item,
+  .right-section .item {
+    font-size: 20px;
+  }
+
+  .content-wrapper-process .leftline.show span {
+    width: 820px;
+  }
+
+  /* SERVICE */
+  .service h3 {
+    font-size: 40px;
+  }
+
+  .service p {
+    font-size: 28px;
+    letter-spacing: 4px;
+  }
+
+  .icons {
+    gap: 80px;
+  }
+
+  /* SECTION */
+  .section {
+    margin: 60px;
+    gap: 60px;
+  }
+
+  .section img {
+    width: 60%;
+  }
+
+  /* FOOTER */
+  .footer-inner {
+    padding: 80px;
+  }
+
+  .footer-logo {
+    font-size: 32px;
+  }
+
+}
+@media (max-width: 768px) {
+
+
+/* Tablet (786px 이하) */
+/* 반응형--------------------태블릿------------- */
+/* Tablet (786px 이하) */
+@media (max-width: 786px) {
+  /* 헤더 */
+  .header {
+    height: 100px;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .logo {
+    width: auto;
+    height: 50px;
+    margin: 20px 0 10px;
+  }
+
+  .logo a {
+    gap: 8px;
+    font-size: 32px;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nav {
+    margin: 10px 0;
+  }
+
+  .menu-list {
+    font-size: 14px;
+    gap: 0;
+  }
+
+  .menu-list > li > a {
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .submenu-list li a {
+    width: 140px;
+    height: 40px;
+    font-size: 13px;
+  }
+  /* HERO */
+  .hero {
+    height: 100vh;
+  }
+
+  .hero-logo img {
+    width: 220px;
+  }
+
+  .hero-center h1 {
+    font-size: 56px;
+    letter-spacing: 6px;
+    margin-top: 40px;
+  }
+
+  .hero-sub {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .hero-sub .highlight {
+    font-size: 14px;
+  }
+
+  .scroll-cta {
+    display: none;
+  }
+
+  /* BLUE */
+  .blue-inner {
+    flex-direction: column;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin: 0 20px;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .bubble-wrap {
+    display: none;
+  }
+
+  /* TRUST */
+  .trust {
+    height: auto;
+    padding: 100px 0;
+  }
+
+  .trust-1,
+  .trust-2 {
+    display: none;
+  }
+
+  .content-wrapper {
+    position: static;
+    transform: none;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .main-title {
+    font-size: 28px;
+    margin-top: 0;
+  }
+
+  .brand-text {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .innovation-link {
+    position: static;
+    margin: 30px auto 0;
+    justify-content: center;
+  }
+
+  /* PROCESS */
+  .layout-container {
+    height: auto;
+    padding: 100px 0;
+  }
+
+  .four-middle-logo {
+    position: static;
+    transform: none;
+    margin-bottom: 40px;
+  }
+
+  .four-middle-logo img {
+    width: 200px;
+  }
+
+  .content-wrapper-process {
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 40px;
+  }
+
+  .leftline {
+    display: none;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    gap: 20px;
+    transform: none;
+  }
+
+  .left-section .item,
+  .right-section .item {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .center-section {
+    position: static;
+    transform: none;
+    margin-bottom: 20px;
+  }
+
+  /* SERVICE */
+  .service {
+    height: auto;
+    padding: 80px 20px;
+  }
+
+  .service h3 {
+    font-size: 28px;
+  }
+
+  .service p {
+    font-size: 18px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+
+  .icons {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+ /* 하단1 섹션 */
+   .feature-item {
+    flex-direction: column !important; /* reverse 무시 */
+    padding: 80px 40px;
+    gap: 40px;
+  }
+
+  .feature-item img {
+    width: 80%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  .feature-item .text {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .feature-item .text h2 {
+    font-size: 40px;
+  }
+
+  .feature-item .text p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+  /* 하단2 fade-section */
+  .fade-section {
+    margin-top: 60px;
+  }
+
+  .fade-section .content h1 {
+    font-size: 25px;
+    padding: 0 20px;
+  }
+
+  .fade-section .content p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .rotating-circle {
+    width: 250px;
+    height: 250px;
+    top: 25%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -20px;
+  }
+
+  .rotating-circle .arrow {
+    width: 35px;
+    height: 28px;
+    transform-origin: 10% calc(-114.5px + 2px);
+  }
+
+  /* 푸터 */
+  .footer {
+    min-height: 500px;
+  }
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; /* 하단 기준 정렬 */
+  }
+
+  .footer-left {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-logo {
+    justify-content: flex-start;
+    font-size: 32px;
+    gap: 4px;
+  }
+
+  .footer-logo img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-text p {
+    font-size: 20px;
+  }
+
+  .footer-sns {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer-sns img {
+    width: 32px;
+    height: 32px;
+  }
+  
+@media (max-width: 480px) 
+
+  .hero-center h1 {
+    font-size: 42px;
+    letter-spacing: 4px;
+  }
+
+  .hero-logo img {
+    width: 180px;
+  }
+
+  .blue-inner {
+    font-size: 18px;
+  }
+
+  .main-title {
+    font-size: 22px;
+  }
+
+  .service h3 {
+    font-size: 22px;
+  }
+
+  .service p {
+    font-size: 16px;
+  }
+
+  .fade-section .content h1 {
+    font-size: 20px;
+  }
+
+/* 햄버거 기본 숨김 */
+.hamburger {
+  display: none;
+}

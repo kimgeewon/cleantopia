@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cleantopia Redesign</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@latest/dist/web/static/pretendard.css"
+    />
+    <script src="js/script.js" defer></script>
+    <script src="js/barAnimation.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- HERO -->
+      <!-- <section class="hero"> -->
+      <header class="header">
+        <div class="logo">
+          <a href="#">
+            <img src="images/크린토피아 로고.png" alt="메인로고" />
+            <span class="logo-text">크린토피아</span>
+          </a>
+        </div>
+
+        <nav class="nav">
+          <ul class="menu-list">
+            <li>
+              <a class="nav-item" href="#">세탁 서비스</a>
+              <ul class="submenu-list">
+                <li><a href="#">일반 세탁</a></li>
+                <li><a href="#">하루 세탁</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-item" href="#">BLACK LABEL</a>
+              <ul class="submenu-list">
+                <li><a href="#">BLACK LABEL</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-item" href="#">회사 소개</a>
+              <ul class="submenu-list">
+                <li><a href="#">회사 소개</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-item" href="#">서비스센터</a>
+              <ul class="submenu-list">
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">이벤트</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="hero-center">
+          <div class="hero-shape"></div>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+          <script>
+            gsap.registerPlugin(ScrollTrigger);
+
+            // width / height 값을 직접 px로 조정 (해상도 깨짐 방지)
+            gsap.to(".hero-shape", {
+              width: "100vw", // 최종 크기
+              height: "100vw",
+              scale: 1.5,
+              // borderRadius: 0,
+              ease: "none",
+              scrollTrigger: {
+                trigger: ".hero",
+                start: "top top",
+                end: "bottom top",
+                scrub: 1,
+                pin: true,
+              },
+            });
+          </script>
+
+          <div class="hero-logo">
+            <img src="images/herologo.png" alt="히어로섹션로고" />
+          </div>
+
+          <h1>크린토피아</h1>
+
+          <p class="hero-sub">
+            <span class="highlight">일상 세탁</span>부터
+            <span class="highlight">프리미엄</span> 케어까지, 크린토피아의 통합
+            세탁 서비스
+          </p>
+        </div>
+        <!-- 스크롤 -->
+        <div class="scroll-cta luxury">
+          <span class="scroll-text">SCROLL</span>
+          <div class="scroll-line">
+            <span class="scroll-dot"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- BLUE MESSAGE -->
+      <section class="blue">
+        <div class="bubble-wrap"></div>
+        <div class="blue-inner">
+          <p>세탁의 기준을 <span class="blue-highlight">새롭게</span></p>
+          <p>
+            보이지 않는 과정까지<br />
+            <span class="blue-highlight">깨끗</span>하게 만듭니다
+          </p>
+        </div>
+        <!-- <div class="second-logo">
+          <img src="images/2-logo.png" alt="두번째섹션하단로고" />
+        </div> -->
+      </section>
+
+      <!-- trust -->
+      <div class="trust">
+        <div class="gra"></div>
+        <div class="img-wrapper">
+          <div class="trust-1">
+            <img src="images/trust-1.png" alt="trsut이미지왼쪽" />
+          </div>
+          <div class="trust-2">
+            <img src="images/trust-2.png" alt="trsut이미지오른쪽" />
+          </div>
+        </div>
+
+        <div class="content-wrapper">
+          <h3 class="main-title">Standards You can Trust.</h3>
+          <div class="brand-text">
+            <p>
+              맡기는 순간 안심할 수 있는 경험<br />
+              크린토피아의 목표는 단순합니다.<br /><br />
+
+              “고객이 세탁을 고민하지 않게 만드는 것”<br /><br />
+
+              보이지 않는 곳에서 기준을 지키고, 결과로 신뢰를 증명하는 브랜드<br />
+              그것이 크린토피아의 철학입니다. 기술과 시스템을 통해 더
+              정확해지고,<br />
+              환경을 고려한 방식으로 더 책임감 있게.<br /><br />
+
+              앞으로도 우리는<br />
+              생활에 가장 가까운 브랜드로 진화해 나갈 것입니다.
+            </p>
+          </div>
+        </div>
+        <!-- <div class="three-logo">
+          <img src="images/3-logo.png" alt="세번째섹션하단로고" />
+        </div> -->
+      </div>
+
+      <!-- <a href="#" class="innovation-link">
+        Explore our innovation
+        <span class="arrow">→</span>
+      </a> -->
+
+      <!-- PROCESS -->
+
+      <div class="layout-container">
+        <div class="four-middle-logo">
+          <img src="images/4-middlelogo.png" alt="네번째섹션중앙로고" />
+        </div>
+        <div class="center-section">
+          <p class="quote">"One Team, One Mastery."</p>
+        </div>
+        <div class="content-wrapper-process">
+          <div class="left-section">
+            <div class="item">
+              <span>고객중심</span>
+            </div>
+            <div class="item">
+              <span>기업가정신</span>
+            </div>
+            <div class="item">
+              <span>전문성</span>
+            </div>
+            <div class="item">
+              <span>원팀</span>
+            </div>
+          </div>
+          <div class="leftline">
+            <span id="column-line"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- <div class="four-logo">
+            <img src="images/4-logo.png" alt="네번째섹션하단로고" />
+          </div> -->
+
+          <div class="right-section">
+            <div class="item">
+              <span>Forge the Future, Driven by One.</span>
+            </div>
+            <div class="item">
+              <div class="line"></div>
+              <span>ONE EDGE, ZERO LIMITS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SERVICE ICON -->
+      <section class="service">
+        <h3>YOUR BEST CHOICE</h3>
+        <p>당신의 일상을, 새롭게.<br />이제, 경험해보세요</p>
+        <div class="icons">
+          <div class="icon-item">
+            <div class="washing">
+              <img src="images/washing-machine.png" alt="세탁기" />
+            </div>
+
+            <span>완벽한 세탁</span>
+          </div>
+          <div class="icon-item">
+            <div class="shirt">
+              <img src="images/shirt.png" alt="셔츠" />
+            </div>
+
+            <span>프리미엄 케어</span>
+          </div>
+          <div class="icon-item">
+            <div class="clock">
+              <img src="images/clock.png" alt="시계" />
+            </div>
+            <span>신속한 배송</span>
+          </div>
+          <div class="icon-item">
+            <div class="phone">
+              <img src="images/smartphone.png" alt="휴대폰" />
+            </div>
+            <span>간편한 예약</span>
+          </div>
+        </div>
+        <!-- <div class="choice-logo">
+          <img src="images/2-logo.png" alt="choice섹션하단로고" />
+        </div> -->
+      </section>
+
+      <!-- 하단1------------------------------------------ -->
+      <!-- FEATURES -->
+      <section class="three">
+        <!-- CLEAN -->
+        <div class="feature-item reveal">
+          <img src="images/1.png" alt="clean image" />
+          <div class="text">
+            <h2 class="outline">CLEAN</h2>
+            <p>섬유 본연의 깨끗함을 유지하는 클린 공정</p>
+          </div>
+        </div>
+
+        <!-- BLACK LABEL (좌우 반전) -->
+        <div class="feature-item reveal reverse">
+          <img src="images/2.png" alt="black label image" />
+          <div class="text">
+            <h2>BLACK LABEL</h2>
+            <p>프리미엄 의류를 위한 고급 세탁 라인</p>
+          </div>
+        </div>
+
+        <!-- ADVANCED -->
+        <div class="feature-item reveal">
+          <img src="images/3.png" alt="advanced image" />
+          <div class="text">
+            <h2 class="outline">ADVANCED</h2>
+            <p>최첨단 설비로 완성되는 정밀 공정 시스템</p>
+          </div>
+        </div>
+      </section>
+      <section class="fade-section">
+        <div>
+          <img src="images/shirt-bottom.png" alt="배경 사진" />
+        </div>
+        <div class="content">
+          <!-- <img src="images/gra-bottom.png" alt="셔츠그라데이션배경" /> -->
+          <h1>Urban Clean. Nature Fresh.</h1>
+          <p>당신의 가장 소중한 일상을 위한, 빈틈없는 세탁의 기준</p>
+          <p>새 옷처럼 산뜻하게, 당신의 하루를 다시 시작합니다</p>
+
+          <div class="rotating-circle">
+            <div class="arrow"></div>
+          </div>
+        </div>
+      </section>
+      <!--푸터--------------------------------------------->
+      <footer class="footer">
+        <div class="footer-inner">
+          <!-- 왼쪽 -->
+          <div class="footer-left">
+            <div class="footer-logo">
+              <img src="images/크린토피아 로고.png" alt="크린토피아 로고" />
+              <span>크린토피아</span>
+            </div>
+
+            <div class="footer-text">
+              <p><strong>대표전화</strong> 1577-4560</p>
+              <p>
+                <strong>대표이사</strong> 김상영 사업자등록번호 130-81-55163
+              </p>
+              <p>본사 경기도 성남시 중원구 순환로 222 크린토피아</p>
+              <p>COPYRIGHT © CLEANTOPIA ALL RIGHTS RESERVED.</p>
+            </div>
+          </div>
+
+          <!-- 오른쪽 -->
+          <div class="footer-sns">
+            <a href="#"><img src="images/유튜브.png" alt="YouTube" /></a>
+            <a href="#"><img src="images/인스타그램.png" alt="Instagram" /></a>
+            <a href="#"><img src="images/카카오톡.png" alt="KakaoTalk" /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
